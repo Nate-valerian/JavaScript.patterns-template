@@ -1,4 +1,4 @@
-### 1. Approach using normal functions
+## 1. Approach using normal functions
 
 **Pros:**
 
@@ -12,7 +12,7 @@
 - **Hardcoded Logic**: Payment processing logic is tightly coupled with the `processOrder` function, making it less flexible for future changes or extensions.
 - **Less Reusable**: The payment processing logic is not encapsulated within objects, limiting reusability and maintainability.
 
-### 2. Approach using Factory Pattern
+## 2. Approach using Factory Pattern
 
 **Pros:**
 
@@ -26,7 +26,7 @@
 - **Potential Overhead**: Class instantiation and method calls may introduce slight overhead compared to direct function invocation.
 - **Learning Curve**: Developers unfamiliar with object-oriented programming concepts might find this approach more challenging to grasp initially.
 
-### Which is Better
+## Which is Better
 
 Itdepends on the specific requirements and constraints of your project.
 
